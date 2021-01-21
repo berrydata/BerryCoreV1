@@ -709,3 +709,7 @@ By creating an oracle schema that uses an incented construct to derive the valid
 * <b>Lay the foundation</b> for a superior oracle system where data is derived from a distributed set of participants which have both economic interest and 'stake' in the validity and success of the oracle data
 * <b>Create</b> an effective, secure, and incentivized system for off-chain data which ingests inputs from five random parties(miners) and disincentives dispersion and adversarial submissions 
 
+#### Copyright
+
+Berry Data 2021
+DDA Inc. 2018
