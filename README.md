@@ -1,32 +1,6 @@
-<p align="center">
-  <a href='https://www.berry.io/'>
-    <img src= './public/Berry.png' width="250" height="200" alt='berry.io' />
-  </a>
-</p>
-
-<p align="center">
-  <a href='https://twitter.com/WeAreBerry'>
-    <img src= 'https://img.shields.io/twitter/url/http/shields.io.svg?style=social' alt='Twitter WeAreBerry' />
-  </a> 
-</p>
-
-* 
-
-## Table of Contents
-
-* [Instructions for quick start with Truffle Deployment](#Quick-Deployment)
-   * [Detailed documentation for self setup](./SetupDocumentation.md)
-* [Overview](#overview)
-    * [In-Depth Overview](./InDepthOverview.md)
-
-<details><summary>Contributing information</summary>
-
-   * [Maintainers](#Maintainers)
-   * [How to Contribute](#how2contribute)
-   * [Copyright](#copyright)
- </details>
-
 # Berry Oracle
+
+Berry Oracle is based on Tellor Oracle version 1.0.3, improves token economics, and deployed on Binance Smart Chain. It provides one price feed solution on Binance Smart Chain for Peer to Peer Mode. User can request price feed by add tip, and Berry miner will provide data to Berry decentrialized oracle. Tellor works as bitcoin's POW, but its token does not work as Bitcoin, it is unlimited. Berry follows Bitcoin period halfing token supply rule.
 
 
 ### Instructions for quick start with Truffle Deployment <a name="Quick-Deployment"> </a> 
@@ -40,7 +14,6 @@ Follow the steps below to launch the Oracle contracts using Truffle.
     $ npm install
     $ truffle compile
     $ truffle migrate
-    $ truffle exec scripts/01_DeployBerry.js
 ```
 #### Testing through Truffle<a name="testing"> </a>
 
@@ -75,11 +48,6 @@ Berry implements a staked PoW where miners have to deposit Berry Tributes (berry
 
 A deep dive in methodology is available here: [In-Depth Overview](./InDepthOverview.md)
 
-  
-### Using in your project (NPM)
-
-    npm install berrycore
-
 
 ### Useful links <a name="useful-links"> </a>
 High level inspiration from [EIP918 Mineable Token](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-918.md).
@@ -91,25 +59,12 @@ Metamask - www.metamask.io
 Truffle - http://truffleframework.com/
 
 
-#### Maintainers <a name="maintainers"> </a> 
-[@themandalore](https://github.com/themandalore)
-<br>
-[@brendaloya](https://github.com/brendaloya) 
-
-
 #### How to Contribute<a name="how2contribute"> </a>  
-Join our Discord or Telegram:
-[<img src="./public/telegram.png" width="24" height="24">](https://t.me/berry)
-[<img src="./public/discord.png" width="24" height="24">](https://discord.gg/zFcM3G)
 
 Check out or issues log here on Github or contribute to our future plans to build a better miner and more examples of data secured by Berry. 
 
 
 #### Contributors<a name="contributors"> </a>
 
-This repository is maintained by the Berry team - [www.berry.io](https://www.berry.io)
+This repository is maintained by the Berry team - [www.berrydata.co](https://berrydata.co)
 
-
-#### Copyright
-
-Berry Inc. 2019

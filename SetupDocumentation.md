@@ -1,37 +1,3 @@
-<p align="center">
-  <a href='https://www.berry.io/'>
-    <img src= './public/Berry.png' width="250" height="200" alt='berry.io' />
-  </a>
-</p>
-
-<p align="center">
-  <a href='https://deriveth.slack.com/'>
-    <img src= ./public/Chat-Slack-blue.svg alt='Slack' />
-  </a>
-  <a href='https://t.me/berry'>
-    <img src= ./public/Chat-Telegram-blue.svg alt='Telegram Berry' />
-  </a>
-  <a href='https://twitter.com/WeAreBerry'>
-    <img src= 'https://img.shields.io/twitter/url/http/shields.io.svg?style=social' alt='Twitter We Are Berry' />
-  </a> 
-</p>
-
-## Table of Contents
-*  [Documentation](#Documentation)
-    * [Operator Setup](#operator-setup)
-      * [Testing](#testing)
-    * [User functions](#user-fx)
-    * [Miner function](#miner-fx)
-    * [Contracts Description](#Contracts-Description)
-    * [Scripts Description](#Scripts-Description)
-
- <details><summary>Contributing information</summary>
-
-   * [Maintainers](#Maintainers)
-   * [How to Contribute](#how2contribute)
-   * [Copyright](#copyright)
- </details>
-
 ## Documentation <a name="Documentation"> </a>  
 The documentation is broken down into four parts: steps for setting up, quick instructions for setting up and test using Truffle, users' and miners' functions, contracts' descriptions, and scripts' (javascript) descriptions.
 
@@ -173,21 +139,7 @@ where
 * <b>01_DeployBerry.js</b> -- deploys and connects Berry.sol and BerryMaster.sol
 
 
-#### Maintainers <a name="maintainers"> </a> 
-[@themandalore](https://github.com/themandalore)
-<br>
-[@brendaloya](https://github.com/brendaloya) 
-
-
-#### How to Contribute<a name="how2contribute"> </a>  
-Join our slack, shoot us an email or contact us: [<img src="./public/slack.png" width="24" height="24">](https://deriveth.slack.com/)
-[<img src="./public/telegram.png" width="24" height="24">](https://t.me/ddaorg)
-[<img src="./public/discord.png" width="24" height="24">](https://discordapp.com/invite/xtsdpbS)
-
-Check out or issues log here on Github or contribute to our future plans to implement a GPU miner (not built in python), provide a way to pay in Ether for data, and improve our reward/incentives mechanism. 
-
-Any contributions are welcome!
-
 #### Copyright
 
+Berry Data 2021
 DDA Inc. 2018
