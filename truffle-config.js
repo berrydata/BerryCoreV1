@@ -1,6 +1,7 @@
-const HDWalletProvider = require('truffle-hdwallet-provider');
-const fs = require('fs');
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+require('dotenv').config()
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+const privateKey = process.env.PRIVATE_KEY;
+console.log(privateKey);
 
 module.exports = {
   networks: {
@@ -11,14 +12,14 @@ module.exports = {
       gas: 6721975, // default ganache-cli value
     },
     testnet: {
-      provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.binance.org:8545`),
+      provider: () => new HDWalletProvider(privateKey, 'https://data-seed-prebsc-1-s1.binance.org:8545'),
       network_id: 97,
       confirmations: 10,
       timeoutBlocks: 200,
       skipDryRun: true
     },
     bsc: {
-      provider: () => new HDWalletProvider(mnemonic, `https://bsc-dataseed1.binance.org`),
+      provider: () => new HDWalletProvider(privateKey, 'https://bsc-dataseed1.binance.org'),
       network_id: 56,
       confirmations: 10,
       timeoutBlocks: 200,
