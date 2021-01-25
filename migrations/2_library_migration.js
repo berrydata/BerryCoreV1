@@ -73,7 +73,5 @@ module.exports = async function (deployer) {
     await deployer.deploy(BerryMaster, Berry.address)
   });
 
-
-
 };
 /****Uncomment the body to run this with Truffle migrate for truffle testing*/

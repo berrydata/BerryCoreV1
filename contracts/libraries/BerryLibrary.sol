@@ -142,10 +142,10 @@ library BerryLibrary {
         // update height
         self.uintVars[keccak256("height")] += 1;
         uint256 reward;
-        if (self.uintVars[keccak256("height")] > 414720) {
+        if (self.uintVars[keccak256("height")] > 172800) {
             reward = 0;
         } else {
-            reward = 48414427499394800000 / (self.uintVars[keccak256("height")] / 51840 + 1);
+            reward = 61728395061728390000 / (self.uintVars[keccak256("height")] / 43200 + 1);
         }
 
         //pay the miners

@@ -57,7 +57,7 @@ library BerryStake {
         self.uintVars[keccak256("targetMiners")] = 200;
         self.uintVars[keccak256("stakeAmount")] = 1000e18;
         self.uintVars[keccak256("disputeFee")] = 970e18;
-        self.uintVars[keccak256("timeTarget")] = 150;
+        self.uintVars[keccak256("timeTarget")] = 180;
         self.uintVars[keccak256("timeOfLastNewValue")] = now - (now % self.uintVars[keccak256("timeTarget")]);
         self.uintVars[keccak256("difficulty")] = 1;
         self.uintVars[keccak256("height")] = 0;
